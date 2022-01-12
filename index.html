@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resoureces/css/style.css" >
+    <script src="./resoureces/js/main.js"></script>
+</head>
+<body>
+     
+    <section>
+     <header class="">
+         <a href="http://" target="_blank" rel="noopener noreferrer" class="logo" ><img src="./resoureces/img/logo/logo1.png" alt=""></a>
+
+         <ul class="">
+            <li><a href=""> Home</a> </li> 
+            <li><a href=""> Servies</a></li> 
+            <li><a href="">About</a></li> 
+            <li><a href="">Blog</a></li> 
+            <li><a href=""> News</a></li> 
+            
+         </ul>
+       
+     </header>
+     <div class="content">
+        <div class="texBox">
+            <h2>New Running Shoes<br><span>Men's Like Plex</span> </h2>
+            <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="">  Mua Ngay </a><span>  <a href=""> Thanh Toán Ngay </a></span>
+            
+        </div>
+        <div class="imgBox">
+            
+            <img src="./resoureces/img/slider/running-shoes.png" alt="" class="starbucks" >
+        </div>
+
+       
+    </div>
+    <ul class="thumb">
+
+        <li><img src="./resoureces/img/slider/shoes-img1.png" alt="" onclick="imgSlide('./resoureces/img/slider/shoes-img1.png')"></li>
+        <li><img src="./resoureces/img/slider/shoes-img2.png" alt="" onclick="imgSlide('./resoureces/img/slider/shoes-img2.png')"></li>
+        <li><img src="./resoureces/img/slider/shoes-img3.png" alt="" onclick="imgSlide('./resoureces/img/slider/running-shoes.png')"></li>
+    </ul>
+    </section>
+</body>
+
+<script type="text/javascript">
+
+    function imgSlide(anything){
+        document.querySelector('.starbucks').src = anything;
+    }
+</script>
+</html>

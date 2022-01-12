@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+section
+{  
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/logo/banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header 
+
+{   
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:  20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    z-index:1000;
+  
+}
+header .logo
+{
+     position: relative;
+     max-width: 80px;
+
+}
+header ul{
+    position: relative;
+    display: flex;
+
+}
+header ul li {
+    list-style: none;
+    color: #333;
+
+}
+header ul li a{
+    display: inline-block;
+    color :white;
+    font-weight: 600;
+    padding: 20px;
+    text-decoration:none;
+    font-size:20px;
+ 
+
+}
+header ul li a:hover{
+    color: #db5660;
+
+}
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:20px;
+}
+.content .texBox{
+    position: relative;
+    max-width: 500px;
+    margin-left:100px;
+}
+.content .texBox h2{
+   color: #db5660;
+   font-size: 40px;
+  
+  
+   
+} 
+.content .texBox h2 span{
+    color: white;
+    font-size: 60px;
+    font-weight: 400px;
+    font-weight: bolder;
+    
+ } 
+.content .texBox p{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+  
+ } 
+ 
+.content .texBox a{
+   display: inline-block;
+   margin-top: 20px;
+   padding: 15px 25px;
+   background:  #db5660;
+   transition: all 0.5s;
+   cursor: pointer;
+   color:white;
+   font-size:20px;
+   border-radius: 20px;
+   font-weight: 600;
+   text-decoration: none;
+   margin: 10px 10px 10px 0;
+   transform: translateY(10%);
+   
+
+
+ } 
+ .content .texBox a:hover{
+    background:  black;
+ 
+ 
+  } 
+ .content .imgBox
+  {
+    width:600px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:20px;
+    padding-right: 20px;
+    margin-top:30px;
+  } 
+.content .imgBox img{
+    max-width:500px;
+    height:400px;
+  }
+.thumb
+ {
+    position: absolute;
+    left: 35%;
+    display: flex;
+    bottom: 25px;
+    transform: translateX(-20%);
+}
+.thumb li{
+    list-style:none;
+    display: inline-block;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 0 10px;
+   
+   
+}
+.thumb li img{
+    width:130px;
+}
+.thumb li:hover
+{
+    transform: translateY(-15px);
+}
+.thumb li img:hover{
+    transform: translateY(-15px);
+}
